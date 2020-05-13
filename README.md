@@ -1,5 +1,6 @@
 # Vue 扫雷 
-<font size="5"> Vue Minesweeper</font>
+Vue Minesweeper
+
 ![Vue](https://img.shields.io/badge/Vue-2.6.11+-green.svg)
 ![build](https://img.shields.io/badge/build-passed-green.svg)
 
