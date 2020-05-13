@@ -1,0 +1,56 @@
+#Gamemap {
+    width: 80vw;
+    height: 80vh;
+    // border: 2px solid black;
+    #row {
+        display: flex;
+        flex-direction: row;
+        border: 0.5px solid gray;
+        border-right: 0px;
+        border-top: 0px;
+        width: fit-content;
+        @gridSize:1.5vw;
+        height: @gridSize+0.1;
+        &:first-child {
+            border-top: 0.5px solid black;
+        }
+
+        #oneGrid {
+            display: flex;
+            width: @gridSize;
+            height: @gridSize;
+            border-right: 1px solid gray;
+            background-color: rgb(231, 231, 231);
+            justify-content: center;
+
+            #gridFlag {
+                position: absolute;
+                font-size: @gridSize;
+                text-align: center;
+                align-self: center;
+                z-index: 10;
+            }
+
+            #gridNumber {
+                align-self: center;
+          
+                font-size: @gridSize;
+                text-align: center;
+                
+            }
+            #gridMine{
+                align-self: center;
+                font-size: @gridSize;
+                text-align: center;
+          
+            }
+
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgb(197, 196, 196);
+            }
+        }
+    }
+
+}
