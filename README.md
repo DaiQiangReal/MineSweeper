@@ -1,24 +1,22 @@
-# minesweeper
+# Vue 扫雷 
+<font size="5"> Vue Minesweeper</font>
 
-## Project setup
+![截图](./screenshot.png)
+
+## run 快速开始运行
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
 yarn serve
 ```
+or
+```
+npm install
+npm serve
+```
 
-### Compiles and minifies for production
+
+### 编译 Compiles and minifies for production
 ```
 yarn build
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
